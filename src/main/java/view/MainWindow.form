@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="view.MainWindow">
+  <grid id="27dc6" binding="mainPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="645" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <scrollpane id="c1098" binding="tablePanel">
+        <constraints border-constraint="Center"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="6bd3b" class="javax.swing.JTable" binding="actorTable">
+            <constraints/>
+            <properties/>
+          </component>
+        </children>
+      </scrollpane>
+      <component id="b7ad7" class="javax.swing.JLabel" binding="titleLbl">
+        <constraints border-constraint="North"/>
+        <properties>
+          <font name="Arial Black" size="14"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <text value="Actor System GUI"/>
+        </properties>
+      </component>
+      <grid id="25da7" binding="buttonPanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints border-constraint="South"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="d1e90" class="javax.swing.JButton" binding="addActorBtn">
+            <constraints/>
+            <properties>
+              <text value="Add actor"/>
+            </properties>
+          </component>
+          <component id="fbf70" class="javax.swing.JButton" binding="removeActorButton" default-binding="true">
+            <constraints/>
+            <properties>
+              <text value="Remove actor"/>
+            </properties>
+          </component>
+          <component id="9900" class="javax.swing.JButton" binding="getStatsBtn">
+            <constraints/>
+            <properties>
+              <text value="Get stats"/>
+            </properties>
+          </component>
+          <component id="97738" class="javax.swing.JButton" binding="runRingAppBtn">
+            <constraints/>
+            <properties>
+              <text value="Run Ring App"/>
+            </properties>
+          </component>
+          <component id="84fdb" class="javax.swing.JButton" binding="pingPongAppButton" default-binding="true">
+            <constraints/>
+            <properties>
+              <text value="Ping Pong App"/>
+            </properties>
+          </component>
+          <component id="c5e20" class="javax.swing.JButton" binding="sendMessagesButton" default-binding="true">
+            <constraints/>
+            <properties>
+              <text value="Send messages"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
